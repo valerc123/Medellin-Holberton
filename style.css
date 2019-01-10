@@ -134,11 +134,13 @@ body main article .parallax-2 {
 }
 body main aside {
   flex: 1;
-  overflow-y: auto;
+  position: sticky;
+  top: 0;
+  width: 25%;
+  height: 102vh;
   background: #FEFBEA;
 }
 body main aside .contenedor {
-  position: fixed;
   top: 30px;
 }
 body main aside .contenedor .logo {
@@ -186,6 +188,12 @@ body footer p :hover {
   width: 50%;
   margin: 0 auto;
 }
+.main .tweets {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .main .parallax {
   height: 500px;
   background-attachment: fixed;
@@ -193,24 +201,6 @@ body footer p :hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("https://farm4.staticflickr.com/3785/9052837509_bef07e5973_o.jpg");
-}
-.main .tweets {
-  margin: 0 auto;
-  padding: 2%;
-  display: flex;
-  flex-direction: row;
-}
-.main .tweets .tweet {
-  margin: 0 40px;
-}
-
-aside .tweets {
-  padding: 15px;
-  display: flex;
-  flex-direction: column;
-}
-aside .tweets .tweet {
-  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
