@@ -180,13 +180,6 @@ body{
             margin: 0 auto;
         }
     }
-    .tweets{
-        padding: 15px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-            
-    }
     .parallax{
         height: 500px; 
             background-attachment: fixed;
@@ -194,5 +187,27 @@ body{
             background-repeat: no-repeat;
             background-size: cover;
             background-image: url("https://farm4.staticflickr.com/3785/9052837509_bef07e5973_o.jpg");
+    }
+    .tweets{
+        margin: 0 auto;
+        padding: 2%;
+        display: flex;
+        flex-direction: row;
+        .tweet{
+            margin: 0 40px;
+        }
+       
+    }
+}
+aside{
+    .tweets{
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        .tweet{
+            text-align: center;
+        }
+        
+            
     }
 }
