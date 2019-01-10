@@ -168,8 +168,9 @@ body{
 }
 // End index--
 .main{
-    background: #C3E8BD;
-    .parrafo{   
+    background: rgb(235, 185, 111); 
+    .parrafo{ 
+        background: #B7E1F0;  
         h2{
             font-family: 'Euphoria Script', cursive;
             font-size: 55px;
@@ -200,12 +201,27 @@ body{
     }
 }
 aside{
+    .parrafo{
+        padding: 5%;
+        margin:  5% auto;
+        text-align: center;
+        h3{
+            font-family: 'Euphoria Script', cursive;
+            font-size: 45px;
+        }
+        p{
+            font-size: 18px;
+            text-align: justify;
+            padding: 5%;
+        }
+    }
     .tweets{
-        padding: 15px;
+        margin: auto;
         display: flex;
         flex-direction: column;
+        
         .tweet{
-            text-align: center;
+            margin: 0 10%;
         }
         
             

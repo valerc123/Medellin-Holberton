@@ -175,7 +175,10 @@ body footer p :hover {
 }
 
 .main {
-  background: #C3E8BD;
+  background: #ebb96f;
+}
+.main .parrafo {
+  background: #B7E1F0;
 }
 .main .parrafo h2 {
   font-family: "Euphoria Script", cursive;
@@ -204,13 +207,27 @@ body footer p :hover {
   margin: 0 40px;
 }
 
+aside .parrafo {
+  padding: 5%;
+  margin: 5% auto;
+  text-align: center;
+}
+aside .parrafo h3 {
+  font-family: "Euphoria Script", cursive;
+  font-size: 45px;
+}
+aside .parrafo p {
+  font-size: 18px;
+  text-align: justify;
+  padding: 5%;
+}
 aside .tweets {
-  padding: 15px;
+  margin: auto;
   display: flex;
   flex-direction: column;
 }
 aside .tweets .tweet {
-  text-align: center;
+  margin: 0 10%;
 }
 
 /*# sourceMappingURL=style.css.map */
