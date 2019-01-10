@@ -1,0 +1,198 @@
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Sniglet', cursive;
+    display: flex;
+    flex-direction: column;
+    header{
+        margin: 0%;
+        padding: 0%;
+        .contain{
+            width: 100%;
+            .right{
+                background: rgb(65, 58, 142);
+                padding: 10px;
+                height: 20px;
+                width: 100%;
+            }
+            .menu{ 
+                padding: 10px;
+                background: black;
+                margin: 0;
+                font-family: 'Sniglet', cursive;
+                display: flex;
+                justify-content: flex-end;
+                .item{
+                    list-style: none; 
+                    padding: 5px;
+                    margin: 0 35px;
+                    display: inline;
+                    justify-content: space-between;
+                    text-decoration: none;
+                    outline: none;
+                    color: #fff;
+                    font-family: 25px;
+                }:hover{color: aquamarine;
+                    list-style: none; }
+            }
+            .photo{
+                position: relative; 
+                .contain-text{//texto encima
+                    border:3px solid rgba(255,255,255,0.5);
+                    border-radius:4px;
+                    position: absolute;
+                    top: 20%;
+                    left:35%;
+                    text-align: center;
+                    color: #fff;
+                    width: 40%;
+                    .text{
+                        padding: 3% 10%;
+                        h1{
+                            text-shadow: -5px -4px 10px rgb(24, 23, 23);
+                            font-family: 'Rock Salt', cursive;
+                            font-size: 80px;
+                        }
+                        h4{
+                            letter-spacing: 1.5px;
+                            font-size: 35px;
+                            font-family: 'Euphoria Script', cursive;
+                            text-shadow: -5px -5px 5px rgb(24, 23, 23);
+                        }
+                    }  
+                }  
+            }
+        }
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+        flex: auto;
+        article{
+            flex: 2;
+            overflow-y: auto;
+            .parrafo{
+                margin:  auto;
+                text-align: center;
+                padding:3%;
+                background: #C3E8BD;
+                .p{
+                    h2{
+                        font-family: 'Euphoria Script', cursive;
+                        text-align:center;
+                        font-size: 55px
+                    }
+                    width: 800px;
+                    margin: auto;
+                    text-justify: auto;
+                    text-align: justify;
+                }
+            }
+            .info{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                .texto{
+                    background: #FFF49F;
+                    padding:8% 8%;
+                    font-size: 20px;
+                    width: 60%;
+                    text-align: justify;
+                    h3{
+                        font-family: 'Euphoria Script', cursive;
+                        text-align:center;
+                        font-size: 55px
+                    }
+                }
+            }
+            .parallax {
+                height: 100%; 
+                background-attachment: fixed;
+                background-position: 50% 50%;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .parallax-1{
+                background-image: url("http://www.fondosblackberry.com/user-content/uploads/wall/o/20/Orquideorama-Medellin-Colombia1.jpg");
+                height: 800px;
+            }
+            .parallax-2{background-image: url("https://www.movichhotels.com/PublishingImages/ciudades/medellin/intercontinental/slider-home-inter/sl-med-inter-segunMovich.jpg");
+                height: 800px;
+            }  
+        } 
+        aside{
+            flex: 1;
+            overflow-y: auto;
+            background: #FEFBEA;
+            .contenedor{
+                position: fixed;
+                top: 30px;
+                .logo{
+                    text-align: center;
+                }
+                .text{
+                    text-align: justify;
+                    padding:10%;
+                    h1{
+                        font-family: 'Rock Salt', cursive; 
+                    }
+                    p{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        margin: 0;
+        padding: 5px;
+        background: black;
+        width: 100%;
+        color: #fff;
+        p{
+            letter-spacing: 2px;
+            text-align: center;
+            font-family: 'Sniglet', cursive;
+            a{
+            color: #fff;
+            text-decoration: none;
+            }:hover{border-bottom:1px solid #fff;}
+        }
+        
+    }
+}
+// End index--
+.main{
+    background: #C3E8BD;
+    .parrafo{   
+        h2{
+            font-family: 'Euphoria Script', cursive;
+            font-size: 55px;
+        }
+        p{
+            text-align: justify; 
+            width: 50%;
+            margin: 0 auto;
+        }
+    }
+    .tweets{
+        padding: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+            
+    }
+    .parallax{
+        height: 500px; 
+            background-attachment: fixed;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url("https://farm4.staticflickr.com/3785/9052837509_bef07e5973_o.jpg");
+    }
+}
