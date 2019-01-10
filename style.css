@@ -134,11 +134,13 @@ body main article .parallax-2 {
 }
 body main aside {
   flex: 1;
-  overflow-y: auto;
+  position: sticky;
+  top: 0;
+  width: 25%;
+  height: 102vh;
   background: #FEFBEA;
 }
 body main aside .contenedor {
-  position: fixed;
   top: 30px;
 }
 body main aside .contenedor .logo {
