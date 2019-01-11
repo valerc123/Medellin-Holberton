@@ -175,9 +175,12 @@ body footer p a {
 body footer p :hover {
   border-bottom: 1px solid #fff;
 }
-
+/*tweet*/
 .main {
-  background: #C3E8BD;
+  background: #ebb96f;
+}
+.main .parrafo {
+  background: #B7E1F0;
 }
 .main .parrafo h2 {
   font-family: "Euphoria Script", cursive;
@@ -188,12 +191,6 @@ body footer p :hover {
   width: 50%;
   margin: 0 auto;
 }
-.main .tweets {
-  padding: 15px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
 .main .parallax {
   height: 500px;
   background-attachment: fixed;
@@ -202,3 +199,37 @@ body footer p :hover {
   background-size: cover;
   background-image: url("https://farm4.staticflickr.com/3785/9052837509_bef07e5973_o.jpg");
 }
+.main .tweets {
+  margin: 0 auto;
+  padding: 2%;
+  display: flex;
+  flex-direction: row;
+}
+.main .tweets .tweet {
+  margin: 0 40px;
+}
+
+aside .text {
+  padding: 5%;
+  margin: 5% auto;
+  text-align: center;
+}
+aside .text h3 {
+  font-family: "Euphoria Script", cursive;
+  font-size: 45px;
+}
+aside .text p {
+  font-size: 18px;
+  text-align: justify;
+  padding: 5%;
+}
+aside .post{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+aside .post .twitter {
+  margin: 0 10%;
+}
+
+/*# sourceMappingURL=style.css.map */
