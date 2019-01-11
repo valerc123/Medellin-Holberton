@@ -175,7 +175,7 @@ body footer p a {
 body footer p :hover {
   border-bottom: 1px solid #fff;
 }
-/*tweet*/
+
 .main {
   background: #ebb96f;
 }
@@ -231,5 +231,3 @@ aside .post{
 aside .post .twitter {
   margin: 0 10%;
 }
-
-/*# sourceMappingURL=style.css.map */
